@@ -66,3 +66,8 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+# Bundled raylib binaries (required to build)
+!vendor/raylib/lib/*.a
+!vendor/raylib/lib/*.dll
+!vendor/raylib/lib/*.lib
